@@ -1,0 +1,28 @@
+# CONDITIONAL STATEMENTS
+
+# if statement
+r=5
+if r>1:
+print('true')
+
+# if else statement
+c=4
+if c>5:
+print ('true')
+else:
+print('false')
+
+for statement
+ u=6
+for(z) in range (u):
+print(z)
+if z>2:
+print('done')
+
+
+#nested decisions
+e=5
+if e>9:
+print('true')
+if e<6:
+print('false')
