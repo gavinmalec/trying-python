@@ -5,3 +5,8 @@ pay=input('pay per hour:')
 grosspay=float(hours)*float(pay)
 print('Grosspay:',grosspay)
 
+
+type()-shows variable type
+convert float to int: r=3.5,int(r)
+convert str to int: t='1234',int(t),float(t) 
+
