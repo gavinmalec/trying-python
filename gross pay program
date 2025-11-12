@@ -10,3 +10,19 @@ type()-shows variable type
 convert float to int: r=3.5,int(r)
 convert str to int: t='1234',int(t),float(t) 
 
+hrs=input('enter hrs:')
+pay=input('enter money:')
+H=float(hrs)
+P=float(pay)
+if H>40:
+    #print('Extra time pay')
+    netp=H*P
+    etp=(H-40.0)*(P*0.5)
+    #print(etp,netp)
+    bank=etp+netp
+    print('Pay to Equity:', bank)
+
+else:
+        #print('No extra time pay')
+        bank=float(H)*float(P)
+        print('Pay to Equity:', bank)
