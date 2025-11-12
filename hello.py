@@ -6,7 +6,9 @@ write if else statement
 v=5
 if v>5:
   print('true)
-        else
+        else:
   print('false)
 
-  
+z=input('are you')
+print(z)
+
