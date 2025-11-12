@@ -11,4 +11,8 @@ if v>5:
 
 z=input('are you')
 print(z)
+h=input('hrs)
+v=input('pay')
+paid=int(h)+int(y)
+print('received' paid)
 
