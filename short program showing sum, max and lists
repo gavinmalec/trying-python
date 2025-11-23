@@ -1,0 +1,17 @@
+a=input('')
+b=input('')
+try:
+    A=int(a)
+    B=int(b)
+except:
+    print('enter a digit')
+    quit()
+sum=A+B
+print('ANSWER:',sum)
+x=list()
+x.append(sum)
+print('Maximum no.:',max(A,B),'list:',x)
+if sum>100:
+    print('max reached')
+else:
+    print('max not yet reached')
