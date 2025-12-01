@@ -1,0 +1,10 @@
+import xml.etree.ElementTree as ET
+data='''
+<me>
+<name>gavin</name>
+<email>g@mail.com</email>
+</me>'''
+mytree=ET.fromstring(data)
+for data in mytree:
+    print('The name is:',mytree.find('name').text)
+    print('The email is:',mytree.find('email').text)
