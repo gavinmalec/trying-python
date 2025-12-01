@@ -1,0 +1,6 @@
+import json
+data='''{"name":"gmalion","mail":"@mail.com","no":"09866543"}'''
+mytree=json.loads(data)
+print('name:',mytree["name"],len(mytree["name"]))
+print('email:',mytree["mail"],len(mytree["mail"]))
+print('no..:',mytree["no"],len(mytree["no"]))
