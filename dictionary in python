@@ -1,0 +1,12 @@
+our=dict()
+forname=input('put your words')
+for name in forname:
+    word=name.split()
+    for word in name:
+        our[word]=our.get(word,0)+1
+        print(our)
+        lst=list()
+        for key,value in our.items():
+            newtuple=(value,key)
+            lst.append(newtuple)
+            print(sorted(lst))
